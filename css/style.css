@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap&subset=cyrillic-ext');
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Medium.woff') format('woff2'),
+		url('../fonts/Gilroy-Medium.woff2') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff2') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-family: Gilroy;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+}
+.block {
+	width: auto;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+h1 {
+	font-size: 50px;
+	display: block;
+	margin: 20px auto;
+	width: 800px;
+}
+.text {
+	background-color: darkkhaki;
+	display: inline-block;
+	margin: 0 0 10px 0;
+	padding: 20px;
+	line-height: 20px;
+}
+.general {
+	padding: 20px;
+}
+.general_title {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.general_info {
+	font-size: 20px;
+	display: inline-block;
+	width: 60%;
+	line-height: 25px;
+	padding-right: 30px;
+}
+.general_foto2 {
+	width: 35%;
+}
+.general_info2 {
+	font-size: 20px;
+	background-color: rgb(189, 107, 107);
+	display: inline-block;
+	width: 50%;
+	line-height: 25px;
+	margin: 0 0 30px 40px;
+}
+.general_title2 {
+	background-color: greenyellow;
+	font-size: 40px;
+	margin: 0 auto 30px;
+	display: block;
+	width: 300px;
+}
+.general_info3 {
+	font-size: 20px;
+	display: inline-block;
+	width: 55%;
+	line-height: 25px;
+	padding-right: 30px;
+}
+.general_title3 {
+	font-size: 40px;
+	margin: 0 0 30px 0;
+	font-style: italic;
+	font-weight: 600;
+}
+.general_foto3 {
+	background-color: rgb(130, 0, 50);
+	width: 35%;
+	padding: 50px;
+	margin: 50px;
+}
+.general_title_4 {
+	font-size: 40px;
+	font-style: oblique;
+	font-weight: bold;
+	color: green;
+}
+.general_info4 {
+	font-size: 20px;
+	background-color: lightgoldenrodyellow;
+	display: inline-block;
+	width: 60%;
+	line-height: 25px;
+	padding-right: 30px;
+	max-height: 300px;
+	overflow: scroll;
+}
+.inline {
+	font-size: 40px;
+	display: block;
+	background-color: lightseagreen;
+	width: 400px;
+	text-align: center;
+	margin: 10px auto 20px;
+}
+.work_1 {
+	font-size: 40px;
+	margin: 0 0 30px 0;
+}
+.text_2 {
+	display: inline-block;
+	background-color: rgb(177, 88, 108);
+	font-size: 18px;
+	width: 200px;
+	height: 200px;
+	padding: 15px;
+	margin: 0 0 30px 0;
+}
+.link_home {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	background-color: #080707;
+	font-size: 30px;
+	color: aliceblue;
+}
+
+.homework {
+	text-align: center;
+}
+.paragraf > p {
+	display: inline-block;
+	max-width: 100px;
+	background-color: aquamarine;
+	margin: 15px;
+	padding: 10px;
+	font-size: 15px;
+	word-break: break-all;
+}
+.paragraf {
+	margin: 0 0 30px 0;
+}
+.divlorem {
+	font-size: 20px;
+	background-color: cyan;
+	width: 700px;
+	height: 150px;
+	display: inline-block;
+}
+.divlorem_1 {
+	font-size: 20px;
+	background-color: rgb(0, 255, 42);
+	width: 900px;
+	height: 200px;
+	display: inline-block;
+	margin: -20px 0 30px 0;
+}
+.scroll {
+	font-size: 20px;
+	background-color: darkseagreen;
+	display: inline-block;
+	width: 400px;
+	max-height: 200px;
+	overflow: scroll;
+	margin: 0 0 30px 0;
+}
